@@ -1,6 +1,6 @@
 from mongoengine import connect, Q
 from models import Author, Quote
-from connect import connect
+from mongo_connect import connect
 
 def search_quotes_by_author(author_name):
 

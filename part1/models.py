@@ -2,7 +2,7 @@ from datetime import datetime
 
 from mongoengine import ReferenceField, Document
 from mongoengine.fields import BooleanField, DateTimeField, EmbeddedDocumentField, ListField, StringField
-from connect import connect
+from mongo_connect import connect
 
 class Author(Document):
     fullname = StringField(required=True)
